@@ -2770,7 +2770,7 @@ implements Runnable{
 	
 				String nS = JOptionPane.showInputDialog("Trikotnummer eingeben");
 				int n = 0;
-				
+
 				if (nS.length()>0) {
 					
 					n = Integer.parseInt(nS);
@@ -5850,23 +5850,6 @@ implements Runnable{
 			}
 		
 	}
-	
-//	public void Hinweis (String s) {
-//		
-//		
-//		int i = s.length();
-//		
-//		if (i == 0) {
-//			
-//			lblHinweis.setText("");
-//			
-//		} else {
-//	        
-//			lblHinweis.setText(s);
-//			
-//		}
-//		
-//	}
 	
 	
 	public void Tasten(int a) {
